@@ -8,3 +8,21 @@ polyfill-next-selector { content: ':host > h2'; }
 ::content h2 {
   color: blue;
 }
+
+body {
+    color: lightblue;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+figure {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    margin-top: -250px; /* Half the height */
+    margin-left: -250px; /* Half the width */
+}
